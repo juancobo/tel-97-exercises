@@ -1,32 +1,32 @@
 ---
-title: About
+title: Acerca de Telar
 ---
 
-# About Telar
+# Acerca de Telar
 
-Telar (Spanish for "loom") is a static site generator built on Jekyll for digital storytelling and publishing small digital collections. It weaves IIIF images, video, audio, narrative text, and contextual layers into interactive visual exhibitions, with a card-stacking architecture, fluid scroll navigation, deep linking, and shareable URLs. It follows minimal computing principles: plain text authoring, static generation, and free hosting on GitHub Pages.
+Telar es un generador de sitios estáticos construido sobre Jekyll, para crear narrativas digitales y publicar pequeñas colecciones en línea. Combina imágenes IIIF, video, audio, texto narrativo y capas de contexto en exhibiciones visuales interactivas, con una arquitectura de tarjetas apiladas, navegación fluida por desplazamiento, enlaces directos a pasos específicos y URLs compartibles. Sigue los principios de computación mínima: autoría en texto plano, generación estática y alojamiento gratuito en GitHub Pages.
 
 <div class="alert alert-info" role="alert">
-<strong>Customize this page</strong><br>
-You can edit this about page by modifying the <code>telar-content/texts/pages/about.md</code> file in your repository. Add your own project description, credits, and acknowledgments to personalize your site. To localize for other languages, create a sister file alongside this one (for example, <code>acerca.md</code> for Spanish) with frontmatter <code>localized_for: about.md</code> and <code>language: &lt;lang_code&gt;</code>; the build picks the file matching <code>telar_language</code>.
+<strong>Personaliza esta página</strong><br>
+Para editar esta página, modifica el archivo <code>telar-content/texts/pages/acerca.md</code> en tu repositorio. Agrega tu propia descripción del proyecto, créditos y agradecimientos para personalizar tu sitio. Esta es la versión en español de <code>about.md</code>; el frontmatter <code>localized_for: about.md</code> y <code>language: es</code> indica al build cuál archivo usar según <code>telar_language</code>.
 </div>
 
-## Credits
+## Créditos
 
-Telar is developed by Adelaida Ávila, Juan Cobo Betancourt, Natalie Cobo, Santiago Muñoz, and students and scholars at the [UCSB Archives, Memory, and Preservation Lab](https://ampl.clair.ucsb.edu), the UT Archives, Mapping, and Pedagogy Lab, and [Neogranadina](https://neogranadina.org).
+Telar es desarrollado por Adelaida Ávila, Juan Cobo Betancourt, Natalie Cobo, Santiago Muñoz, y estudiantes y académicos del [UCSB Archives, Memory, and Preservation Lab](https://ampl.clair.ucsb.edu), del UT Archives, Mapping, and Pedagogy Lab y de [Neogranadina](https://neogranadina.org).
 
-We gratefully acknowledge the support of the [Caribbean Digital Scholarship Collective](https://cdscollective.org), the [Center for Innovative Teaching, Research, and Learning (CITRAL)](https://citral.ucsb.edu/home) at the University of California, Santa Barbara, the [UCSB Library](https://library.ucsb.edu), the [Routes of Enslavement in the Americas University of California MRPI](https://www.humanities.uci.edu/routes-enslavement-americas), and the [Department of History of The University of Texas at Austin](https://liberalarts.utexas.edu/history/).
+Agradecemos el apoyo del [Caribbean Digital Scholarship Collective](https://cdscollective.org), del [Center for Innovative Teaching, Research, and Learning (CITRAL)](https://citral.ucsb.edu/home) de la University of California, Santa Barbara, de la [UCSB Library](https://library.ucsb.edu), del [Routes of Enslavement in the Americas University of California MRPI](https://www.humanities.uci.edu/routes-enslavement-americas) y del [Department of History of The University of Texas at Austin](https://liberalarts.utexas.edu/history/).
 
-For more information, visit the [Telar GitHub repository](https://github.com/UCSB-AMPLab/telar) or the [Telar Compositor](https://compositor.telar.org).
+Para más información, visita el [repositorio de Telar en GitHub](https://github.com/UCSB-AMPLab/telar) o el [Telar Compositor](https://compositor.telar.org).
 
-Telar is built with:
+Telar está construido con:
 
-- [Jekyll](https://jekyllrb.com/) — Static site generator
-- [OpenSeadragon](https://openseadragon.github.io/) — IIIF viewer
-- [Bootstrap 5](https://getbootstrap.com/) — CSS framework
-- [libvips](https://www.libvips.org/) — IIIF tile generator
+- [Jekyll](https://jekyllrb.com/) — generador de sitios estáticos
+- [OpenSeadragon](https://openseadragon.github.io/) — visor IIIF
+- [Bootstrap 5](https://getbootstrap.com/) — marco CSS
+- [libvips](https://www.libvips.org/) — generador de teselas IIIF
 
-It is based on [Paisajes Coloniales](https://paisajescoloniales.com/), and inspired by:
+Está basado en [Paisajes Coloniales](https://paisajescoloniales.com/), y se inspira en:
 
-- [Wax](https://minicomp.github.io/wax/) — Minimal computing for digital exhibitions
-- [CollectionBuilder](https://collectionbuilder.github.io/) — Static digital collections
+- [Wax](https://minicomp.github.io/wax/) — computación mínima para exhibiciones digitales
+- [CollectionBuilder](https://collectionbuilder.github.io/) — colecciones digitales estáticas
